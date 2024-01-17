@@ -1,0 +1,20 @@
+pip install flet
+
+for Hot Reload: in the terminal 
+    flet run filename.py
+
+Problem: 
+if it shows
+ 'flet' not found, did you mean:
+  command 'flex' from deb flex
+  command 'flent' from deb flent
+  command 'flit' from deb flit
+  command 'fet' from deb fet
+Try: sudo apt install <deb name>
+
+
+Then: 
+export PATH=$PATH:/home/shahan/.local/bin
+যেই লোকেশনে ইন্সটল হয়েছে সেই লিঙ্ক। 
+
+pipx ensurepath
