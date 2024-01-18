@@ -50,3 +50,23 @@
 #         page.add(text2)
 #         time.sleep(1)
 # ft.app(main)
+
+
+
+##### Counter version 2
+import flet as ft 
+import time 
+
+def main(page:ft.Page):
+    page.title="Practice"
+
+    text=ft.Text(value="COUNTER VERSION 2", color="blue", size=40)
+    page.add(text)
+    text2=ft.Text(color="blue", size=40)
+    page.add(text2)
+
+    for i in range(11):
+        text2.value="Count: "+ str(i)
+        page.update()
+        time.sleep(1)
+ft.app(main)
