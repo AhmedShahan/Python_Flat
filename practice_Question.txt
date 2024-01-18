@@ -1,0 +1,20 @@
+1) Create the Flet window. 
+2) Change the Title
+3) Write the output 
+    Shahan Ahmed. 
+    Department of Electrical & Computer Engineering
+    North South University
+4) Counter Version1
+    Counter: 1
+    delay(1 Second)
+    Counter: 2
+    delay(1 Second)
+    Counter: 3
+    delay(1 Second)
+    Counter: 4
+    delay(1 Second)
+    Counter: 5
+    delay(1 Second)
+5) Counter Version 2
+    Counter: 0 
+    // This counter will be changed as like timer. After 1 secong Counter: 1, then 1 sec Counter: 2
