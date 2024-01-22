@@ -18,3 +18,12 @@
 5) Counter Version 2
     Counter: 0 
     // This counter will be changed as like timer. After 1 secong Counter: 1, then 1 sec Counter: 2
+
+6) Row & Column Making
+7) Make the table: 
+Name    University     Department       Major
+A       NSU             ECE             CSE  
+B       BRAC            CSE             CSE 
+C       IUB             ECE             EEE 
+D       AIUB            DMP             Mathmatics
+E       UIU             ECE             ETE 
