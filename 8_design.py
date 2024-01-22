@@ -10,7 +10,10 @@ def main(page:ft.Page):
     # page.theme_mode="light"
 
     # Align all the element into center
-    page.vertical_alignment=ft.MainAxisAlignment.CENTER 
+    page.vertical_alignment="CENTER" # All item in Left to Center
+    page.horizontal_alignment="CENTER" # All item in Top to center
+    # page.vertical_alignment=ft.MainAxisAlignment.CENTER 
+
 
 
 
