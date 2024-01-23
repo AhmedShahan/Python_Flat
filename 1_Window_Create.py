@@ -30,3 +30,7 @@ flt.app(target=main)
 '''
 
 # এই টুকুই রান করলে আমরা একটা সুন্দর Blank window দেখতে পারব। 
+def main(Page:flt.Page):
+    Page.update()
+
+flt.app(target=main)
