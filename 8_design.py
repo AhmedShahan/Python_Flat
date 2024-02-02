@@ -14,6 +14,7 @@ def main(page:ft.Page):
     page.horizontal_alignment="CENTER" # All item in Top to center
     # page.vertical_alignment=ft.MainAxisAlignment.CENTER 
 
+    page.appbar=ft.AppBar(title=ft.Text("THIS IS APPBAR", size=20, bgcolor="red"),center_title=True)
 
 
 
